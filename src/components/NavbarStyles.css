@@ -1,0 +1,148 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 4%;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+  border-radius: 50px;
+  z-index: 999;
+  background: #fff;
+}
+
+.nav-logo{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #271438;
+}
+
+.nav-logo span{
+  color: #b4abab;
+}
+
+.menu-wrapper{
+  display: flex;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+}
+
+.menu li{
+  margin-left: 10px;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #271438;
+  padding: 10px 1.2rem;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.nav-link:hover{
+  background: #271438;
+  color: #fff;
+}
+
+.nav-link.active{
+  background: #271438;
+  color: #fff;
+}
+
+.icon{
+  margin-left: 5px;
+}
+
+.nav-signup-link{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 1.5rem;
+  background: #9CAFAA;
+  border-radius: 8px;
+}
+
+.menu li .nav-signup-link:hover{
+  background: #000;
+}
+
+.hamburger-menu{
+  display: none;
+}
+
+
+@media screen and (max-width: 965px) {
+  .navbar{
+    z-index: 99;
+  }
+
+  .hamburger-menu{
+    display: inline;
+  }
+
+  .hamburger-menu i{
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 80px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    background: #fff;
+    display: none;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+
+  .menu li{
+    margin: 0;
+  }
+
+  .menu.active{
+    left: 0;
+    display: block;
+    z-index: -1;
+  }
+
+  .nav-link{
+    display: block;
+    width: 100%;
+    padding: .8rem 1rem;
+  }
+
+  .nav-signup-link{
+    width: 100%;
+    display: block;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-link{
+    text-align: center;
+  }
+
+  .nav-signup-link{
+    text-align: center;
+  }
+}
+

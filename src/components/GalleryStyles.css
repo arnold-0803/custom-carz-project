@@ -1,0 +1,81 @@
+.gallery{
+  margin: 1% auto 0;
+  padding-bottom: 2%;
+}
+
+.gallery h1{
+  text-align: center;
+  margin: 1% 0 -1%;
+  color: #271438;
+  font-size: 3rem;
+}
+
+.gallery p{
+  margin: 1% 0 4%;
+  text-align: center;
+  color: #271438;
+  font-size: 1rem;
+}
+
+.gallery-box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+}
+
+.gallery-box .card{
+  position: relative;
+  cursor: pointer;
+  height: 300px;
+  border-radius: 8px;
+  transition: .3s ease-in-out;
+}
+
+.reserve{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: .3s ease-in-out;
+}
+
+.gallery-box .card:hover{
+  transform: translateY(1rem);
+}
+
+.gallery .card img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.gallery-box .card p{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  transform: translate(-50%, 0);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.gradient{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  border-radius: 8px;
+}
+
