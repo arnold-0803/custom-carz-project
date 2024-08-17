@@ -1,6 +1,6 @@
 export const  ServiceData = [
   {
-    src: "./image/product-image1.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image1.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -9,7 +9,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image2.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image2.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -18,7 +18,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image3.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image3.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -27,7 +27,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image4.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image4.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -36,7 +36,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image5.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image5.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -45,7 +45,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image6.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image6.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -54,7 +54,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image7.jpg",
+    src: `${process.env.PUBLIC_URL}/image/product-image7.jpg`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -63,7 +63,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image8.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image8.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -72,7 +72,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image9.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image9.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -81,7 +81,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image10.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image10.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -90,7 +90,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image11.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image11.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -99,7 +99,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image12.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image12.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -108,7 +108,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image13.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image13.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -117,7 +117,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image14.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image14.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -126,7 +126,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image15.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image15.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -135,7 +135,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image16.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image16.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -144,7 +144,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image17.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image17.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -153,7 +153,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image18.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image18.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -162,7 +162,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image19.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image19.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -171,7 +171,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image20.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image20.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -180,7 +180,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image21.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image21.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -189,7 +189,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image22.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image22.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -198,7 +198,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image23.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image23.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -207,7 +207,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image24.webp",
+    src: `${process.env.PUBLIC_URL}image/product-image24.webp`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -216,7 +216,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image25.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image25.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -225,7 +225,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/product-image26.png",
+    src: `${process.env.PUBLIC_URL}/image/product-image26.png`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
@@ -234,7 +234,7 @@ export const  ServiceData = [
     rating5: "fa-solid fa-star"
   },
   {
-    src: "./image/proguct-image27.jpeg",
+    src: `${process.env.PUBLIC_URL}/image/proguct-image27.jpeg`,
     title: "product title",
     rating1: "fa-solid fa-star",
     rating2: "fa-solid fa-star",
