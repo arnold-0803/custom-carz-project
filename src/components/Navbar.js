@@ -37,10 +37,11 @@ const Navbar = ({cartCount}) => {
               </NavLink>
             </li>  
           )}
+          <NavLink to={"/cart"}>
+            <i className="fa-solid fa-cart-shopping"></i>
+            <span>{cartCount}</span>
+          </NavLink>
         </ul>
-        <NavLink to={"/cart"}>
-          <i className="fa-solid fa-cart-shopping"></i>
-        </NavLink>
       </div>
     </div>
   );

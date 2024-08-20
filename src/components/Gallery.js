@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ImagesData } from "../data/GalleryData";
 import "./GalleryStyles.css";
 import { useEffect, useState } from "react";
-import SkeletonGallarey from "./assets/SkeletonGallarey";
+import SkeletonGallarey from "../assets/SkeletonGallarey";
 
 const GalleryPage = () => {
 
@@ -11,7 +11,7 @@ const GalleryPage = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 8000)
+    }, 3000)
   }, [])
   return (
     <div className="gallery">

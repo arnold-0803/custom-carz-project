@@ -1,24 +1,25 @@
 import Hero from "../../components/HeroSection";
+import Card from "../../components/ItemCard";
 import Navbar from "../../components/Navbar";
-import ServiceProducts from "./ServiceItems";
 import { ServiceData } from "../../data/ServiceData";
-import image from "../images/image20.jpg";import "./ServiceItemsStyles.css";
+import image from "../images/image20.jpg";
+import "./ServiceItemsStyles.css";
 
 
 const Service = () => {
   return (
     <div className="service">
-      <Navbar cartCount={0}/>
+      <Navbar/>
       <Hero
         heading="Services"
         image={image}
         className="service"
       />
       <div className="cards-wrapper">
-        <h1>Add to the cart</h1>
+        <h1>Shop Add to Cart</h1>
         <div className="cards">
-          {ServiceData.map((prod, index) => (
-            <ServiceProducts cartCount={0} item={prod} key={index}/>
+          {ServiceData.map((item) => (
+            <Card data={item} key={item.id}/>
           ))}
         </div>
       </div>

@@ -79,7 +79,7 @@
   display: none;
 }
 
-
+/* MEDIA QUERY */
 @media screen and (max-width: 965px) {
   .navbar{
     z-index: 99;
@@ -87,6 +87,8 @@
 
   .hamburger-menu{
     display: inline;
+    position: absolute;
+    right: 30px;
   }
 
   .hamburger-menu i{
@@ -101,7 +103,7 @@
     width: 100%;
     height: auto;
     margin: 0;
-    padding: 80px 20px 30px;
+    padding: 80px 5px 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -136,7 +138,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .nav-link{
     text-align: center;
   }
@@ -144,5 +146,5 @@
   .nav-signup-link{
     text-align: center;
   }
-}
+} */
 

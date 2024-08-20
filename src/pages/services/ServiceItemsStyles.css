@@ -9,11 +9,13 @@
   font-size: 3rem;
 }
 
-.cards{
+.cards-wrapper .cards{
   margin-top: 4%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-wrapper .card{
@@ -49,6 +51,7 @@
 
 .star-rating{
   z-index: 2;
+  padding: 5px 0;
 }
 
 .star-rating i{
@@ -56,10 +59,21 @@
   padding: .4rem;
 }
 
-.card button{
+.star-rating span{
+  display: inline-block;
+  width: 40px;
+  background: #33333380;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cards .card button{
   cursor: pointer;
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.97rem;
   font-weight: 600;
   margin-top: 4%;
   padding: 1rem 3rem;
@@ -69,21 +83,76 @@
   transition: .2s ease-in-out;
 }
 
+.cards .card a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  background: #271438;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card button i{
   color: #271438;
 }
 
 .card button:hover{
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 600px) {
+  .product-wrapper .card img{
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+    transition: .2s ease-in-out;
+  }
+
+  .product-wrapper .card p{
+    font-size: 1.1rem;
+  }
+
+  .cards .card button{
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .cards-wrapper .cards{
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .cards .card button{
+    padding: 1rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
+  .cards-wrapper h1{
+    font-size: 1.5rem;
+  }
+
   .service-products{
     margin-bottom: -20%;
   }
 }
 
 @media screen and (max-width: 380px) {
+  .cards-wrapper .cards{
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
   .service-products{
     margin-bottom: -60%;
   }

@@ -1,8 +1,8 @@
 .footer-section{
   position: absolute;
+  top: 100%;
   left: 50%;
   width: 100%;
-  margin: 0 auto;
   padding: 5% 5% 1%;
   color: #fff;
   transform: translate(-50%, 50%);
