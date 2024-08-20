@@ -3,7 +3,7 @@ import Card from "../../components/ItemCard";
 import Navbar from "../../components/Navbar";
 import { ServiceData } from "../../data/ServiceData";
 import image from "../images/image20.jpg";
-import "./ServiceItemsStyles.css";
+import "./ServicesPageStyles.css";
 
 
 const Service = () => {

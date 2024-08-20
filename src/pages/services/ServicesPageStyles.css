@@ -1,5 +1,4 @@
 .cards-wrapper{
-  margin: 1% auto -10%;
   width: 100%;
 }
 
@@ -143,17 +142,10 @@
   .cards-wrapper h1{
     font-size: 1.5rem;
   }
-
-  .service-products{
-    margin-bottom: -20%;
-  }
 }
 
 @media screen and (max-width: 380px) {
   .cards-wrapper .cards{
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  }
-  .service-products{
-    margin-bottom: -60%;
   }
 }

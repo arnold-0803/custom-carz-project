@@ -7,7 +7,7 @@
   font-family: "Quicksand", sans-serif;
 }
 
-body{
+.App{
   position: relative;
   background-color: #faf5f5;
   padding: 0 5%;
@@ -15,7 +15,7 @@ body{
 
 /* Styling for About Page Stars Here */
 .about-content{
-  margin: 1% auto -10%;
+  width: 100%;
 }
 
 .about-content h1{
@@ -51,8 +51,7 @@ body{
 
 /* Styling for Contact Page Stars Here */
 .contact-form{
-  margin: 1% auto -10%;
-  padding-bottom: 3rem;
+  width: 100%;
 }
 
 .contact-form h1{

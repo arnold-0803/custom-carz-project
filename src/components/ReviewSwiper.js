@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import "./ReviewStyles.css";
+import "./ReviewSwiperStyles.css";
 
 export default function Reviews(props) {
   return (
@@ -29,7 +29,7 @@ export default function Reviews(props) {
           dynamicBullets: true,
         }}
         modules={[Pagination]}
-        className="swiper-encloser"
+        className="swiper-wraper"
       >
         <SwiperSlide className='slide'>
           <div className="wrapper">
