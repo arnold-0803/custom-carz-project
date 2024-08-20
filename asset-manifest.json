@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/custom-carz-project/static/css/main.2b08de28.css",
-    "main.js": "/custom-carz-project/static/js/main.f6324beb.js",
+    "main.css": "/custom-carz-project/static/css/main.55e5e26d.css",
+    "main.js": "/custom-carz-project/static/js/main.6f5c357a.js",
     "static/media/image2.jpg": "/custom-carz-project/static/media/image2.0dcdc91235496a54294b.jpg",
     "static/media/mercedes-amg-gt-4-door-coupe-6942533.jpg": "/custom-carz-project/static/media/mercedes-amg-gt-4-door-coupe-6942533.a8cba61c81d3f6f2fa17.jpg",
     "static/media/image3.jpg": "/custom-carz-project/static/media/image3.a7b3604dfdec14e155ce.jpg",
@@ -9,14 +9,14 @@
     "static/media/image19.jpg": "/custom-carz-project/static/media/image19.0aab1db600d864eff8ff.jpg",
     "static/media/image1.jpg": "/custom-carz-project/static/media/image1.a40469a293622db31529.jpg",
     "static/media/image4.jpg": "/custom-carz-project/static/media/image4.08c5dedc96b4b67cc48f.jpg",
-    "static/media/HOSPITAL_ABANDONADO-removebg-preview.png": "/custom-carz-project/static/media/HOSPITAL_ABANDONADO-removebg-preview.05277937c62374ca557d.png",
-    "static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.png": "/custom-carz-project/static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.1b48738b9e4d9bdf28e9.png",
+    "static/media/HOSPITAL_ABANDONADO-removebg-preview.png": "/custom-carz-project/static/media/HOSPITAL_ABANDONADO-removebg-preview.edb45a2efff203db40ab.png",
+    "static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.png": "/custom-carz-project/static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.d8ec3204a54b3da79cb9.png",
     "index.html": "/custom-carz-project/index.html",
-    "main.2b08de28.css.map": "/custom-carz-project/static/css/main.2b08de28.css.map",
-    "main.f6324beb.js.map": "/custom-carz-project/static/js/main.f6324beb.js.map"
+    "main.55e5e26d.css.map": "/custom-carz-project/static/css/main.55e5e26d.css.map",
+    "main.6f5c357a.js.map": "/custom-carz-project/static/js/main.6f5c357a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b08de28.css",
-    "static/js/main.f6324beb.js"
+    "static/css/main.55e5e26d.css",
+    "static/js/main.6f5c357a.js"
   ]
 }
