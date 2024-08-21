@@ -26,6 +26,8 @@
 
 .menu-wrapper{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu{
@@ -35,6 +37,7 @@
 
 .menu li{
   margin-left: 10px;
+  padding: 10px 0;
 }
 
 .nav-link{
@@ -61,18 +64,24 @@
   margin-left: 5px;
 }
 
-.nav-signup-link{
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #fff;
-  padding: 10px 1.5rem;
-  background: #9CAFAA;
-  border-radius: 8px;
+.menu-bar-plus-cart{
+  display: flex;
+  column-gap: 1rem;
 }
 
-.menu li .nav-signup-link:hover{
-  background: #000;
+.cart a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-bar-plus-cart i{
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 1.3rem;
+}
+
+.cart a i{
+  background: #2714388a;
 }
 
 .hamburger-menu{
@@ -87,8 +96,6 @@
 
   .hamburger-menu{
     display: inline;
-    position: absolute;
-    right: 30px;
   }
 
   .hamburger-menu i{
@@ -128,13 +135,6 @@
     display: block;
     width: 100%;
     padding: .8rem 1rem;
-  }
-
-  .nav-signup-link{
-    width: 100%;
-    display: block;
-    margin-top: 1rem;
-    margin-left: 0;
   }
 }
 

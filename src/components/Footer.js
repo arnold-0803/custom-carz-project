@@ -5,13 +5,13 @@ const Footer = () => {
     <div className="footer-section">
       <div className="top-section">
         <div>
-          <h2>Aut
+          <h2>arn
             <span>
               <i className="fa-solid fa-gear"></i>
-            </span>_Arn
+            </span>ld auto
             <span>
               <i className="fa-solid fa-gear"></i>
-            </span>ld Corp.
+            </span> Corp.
           </h2>
           <p>Chopse your best car disign + part</p>
         </div>

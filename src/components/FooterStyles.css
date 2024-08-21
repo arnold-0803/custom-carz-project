@@ -1,12 +1,12 @@
 .footer-section{
   position: absolute;
-  top: 96%;
-  left: 50%;
+  top: 100%;
+  left: 0;
   width: 100%;
   padding: 5% 5% 1%;
   color: #fff;
-  transform: translate(-50%, 50%);
   background: #271438;
+  margin-top: 50px;
 }
 .top-section{
   display: flex;
@@ -74,3 +74,13 @@
   }
 }
 
+
+@media screen and (max-width:500px) {
+  .top-section h2{
+    font-size: 1.1rem;
+  }
+
+  .top-section p{
+    font-size: 0.85rem;
+  }
+}

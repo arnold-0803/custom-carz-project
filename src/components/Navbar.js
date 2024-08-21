@@ -22,12 +22,7 @@ const Navbar = ({cartCount}) => {
           </span>ld
         </h2>
       </Link>
-      <div className="hamburger-menu">
-        <i 
-          className={state ? "fa-solid fa-bars" : "fa-solid fa-xmark"}
-          onClick={handleClick}
-          ></i>
-      </div>
+    
       <div className="menu-wrapper">
         <ul className={display ? "menu active" : "menu"}>
           {MenuItems.map((item, index) => 
@@ -37,11 +32,21 @@ const Navbar = ({cartCount}) => {
               </NavLink>
             </li>  
           )}
-          <NavLink to={"/cart"}>
-            <i className="fa-solid fa-cart-shopping"></i>
-            <span>{cartCount}</span>
-          </NavLink>
         </ul>
+        <div className="menu-bar-plus-cart">
+          <div className="cart">
+            <NavLink to={"/cart"}>
+              <i className="fa-solid fa-cart-shopping"></i>
+              {/* <span>{cartCount}</span> */}
+            </NavLink>        
+            </div>
+            <div className="hamburger-menu">
+                <i 
+                  className={state ? "fa-solid fa-bars" : "fa-solid fa-xmark"}
+                  onClick={handleClick}
+                ></i>
+              </div>
+          </div>
       </div>
     </div>
   );

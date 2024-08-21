@@ -41,6 +41,19 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .about-content h1{
+    font-size: 1.5rem;
+  }
+
+  .about-text h2{
+    font-size: 1.2rem;
+  }
+  .about-text p{
+    font-size: 1.1rem;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .about-content{
     margin-bottom: -60%;
@@ -82,6 +95,7 @@ form textarea{
   margin-bottom: 2rem;
   border-radius: .3rem;
   border: 1px solid #271438;
+  font-size: 1.2rem;
 }
 
 form button{
@@ -125,6 +139,12 @@ form button:hover{
 @media screen and (max-width: 550px) {
   .contact-form{
     margin-bottom: -20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact-form h1{
+    font-size: 1.5rem;
   }
 }
 

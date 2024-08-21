@@ -3,11 +3,10 @@ import SkeletonGallarey from "../assets/SkeletonGallarey";
 import { ShopContext } from "../context/ShoppingContext";
 
 const Card = ({data}) => {
-  const { id, price, src, title, rating} = data;
   const {addToCart, cartItems} = useContext(ShopContext);
   const [isLoading, setIsLoading] = useState(true);
 
-  const cartItemAmount = cartItems[id];
+  const cartItemAmount = cartItems[data.id];
 
   useEffect(() => {
     setTimeout(() => {
@@ -21,19 +20,19 @@ const Card = ({data}) => {
         <SkeletonGallarey/>
       ) : (
         <div className="card">
-          <img src={src} alt="" />
-          <p>{title}</p>
+          <img src={data.src} alt="" />
+          <p>{data.title}</p>
           <div className="star-rating">
             <i className="fa-solid fa-star"></i>
-            <span>{rating}</span>
+            <span>{data.rating}</span>
           </div>
-          <span><b>$ {price}</b></span>
+          <span><b>$ {data.price}</b></span>
           <button
-            onClick={() => addToCart(id)}
+            onClick={() => addToCart(data.id)}
           >Add to cart<i className="fa-solid fa-cart-shopping"></i>
           {cartItemAmount > 0 && <>({cartItemAmount})</>}
           </button>
-          <a href={src} download={src}>
+          <a href={data.src} download={data.src}>
             <i className="fa-solid fa-download"></i>
           </a>
           <div className="gradient"></div>

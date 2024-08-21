@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar';
 import CartItem from './CartItem';
 import { ServiceData } from '../../data/ServiceData';
 import { ShopContext } from '../../context/ShoppingContext';
+import "./CartStyles.css";
 
 function Cart() {
 
