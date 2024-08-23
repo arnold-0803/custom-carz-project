@@ -4,20 +4,34 @@ import CartItem from './CartItem';
 import { ServiceData } from '../../data/ServiceData';
 import { ShopContext } from '../../context/ShoppingContext';
 import "./CartStyles.css";
+import { useNavigate } from 'react-router-dom';
 
 function Cart() {
 
-  const {cartItems} = useContext(ShopContext);
+  const {cartItems, getTotalQuantity} = useContext(ShopContext);
+  const navigate = useNavigate();
+  const totalQuantity = getTotalQuantity();
+
   return (
     <div className='cart-wrapper'>
-      <Navbar cartCount={8}/>
+      <Navbar cartCount={totalQuantity}/>
       <h1>Shopping Cart Items</h1>
       {ServiceData.map(item => {
-        if(cartItems[item.id] !== 0){
+        const itemQuantity = cartItems[item.id]?.quantity;
+        if(itemQuantity > 0){
           return <CartItem data={item} key={item.id}/>
         }
         return null;
       })}
+      <div className="base-wrapper">
+        <div className="base-content">
+          <p><b>Subtotal: $</b></p>
+          <div className="base-btn">
+            <button onClick={() => navigate("/service")}>Cotinue Shopping</button>
+            <button>Purchase Items</button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

@@ -37,7 +37,7 @@ const Navbar = ({cartCount}) => {
           <div className="cart">
             <NavLink to={"/cart"}>
               <i className="fa-solid fa-cart-shopping"></i>
-              {/* <span>{cartCount}</span> */}
+              {cartCount > 0 && <span>{cartCount}</span>}
             </NavLink>        
             </div>
             <div className="hamburger-menu">

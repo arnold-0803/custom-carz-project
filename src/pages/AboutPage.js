@@ -1,11 +1,17 @@
+import { useContext } from "react";
 import Hero from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import image from "../pages/images/mercedes-amg-gt-4-door-coupe-6942533.jpg";
+import { ShopContext } from "../context/ShoppingContext";
 
 const AboutUs = () => {
+
+  const {getTotalQuantity} = useContext(ShopContext);
+  const totalQuantity = getTotalQuantity();
+
   return (
     <div className="about">
-      <Navbar/>
+      <Navbar cartCount={totalQuantity}/>
       <Hero
         heading="About Us"
         image={image}

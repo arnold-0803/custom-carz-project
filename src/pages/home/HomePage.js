@@ -1,3 +1,4 @@
+import { useContext } from "react";
 import GalleryPage from "../../components/Gallery";
 import Navbar from "../../components/Navbar";
 import Reviews from "../../components/ReviewSwiper";
@@ -7,12 +8,15 @@ import img2 from "../images/image2.jpg";
 import img3 from "../images/image3.jpg";
 import img4 from "../images/image4.jpg";
 import img5 from "../images/image5.jpeg";
+import { ShopContext } from "../../context/ShoppingContext";
 
 const Home = () => {
 
+  const {getTotalQuantity} = useContext(ShopContext);
+  const totalQuntity = getTotalQuantity();
   return (
     <div className="home">
-      <Navbar/>
+      <Navbar cartCount={totalQuntity}/>
       <Swiper
         subHeading="Welcome at the"
         heading="Custom Carz Corp."

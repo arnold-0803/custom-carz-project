@@ -5,8 +5,7 @@ import { ShopContext } from "../context/ShoppingContext";
 const Card = ({data}) => {
   const {addToCart, cartItems} = useContext(ShopContext);
   const [isLoading, setIsLoading] = useState(true);
-
-  const cartItemAmount = cartItems[data.id];
+  const cartItemAmount = cartItems[data.id]?.quantity || 0;
 
   useEffect(() => {
     setTimeout(() => {
