@@ -34,6 +34,7 @@
 }
 
 .cart-right{
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,6 +76,19 @@
   height: 40px;
   text-align: center;
   border: none;
+}
+
+.delete-btn button{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 8px;
+  background: #271438;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 
@@ -149,6 +163,12 @@
 
   .cart-right p{
     font-size: 1rem;
+  }
+
+  .delete-btn button{
+    right: 0;
+    top: 80%;
+    border-radius: 5px 0 8px 0;
   }
 }
 

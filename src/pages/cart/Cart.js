@@ -25,7 +25,7 @@ function Cart() {
       })}
       <div className="base-wrapper">
         <div className="base-content">
-          <p><b>Subtotal: $</b></p>
+          <p><b>Total Purchase: $</b></p>
           <div className="base-btn">
             <button onClick={() => navigate("/service")}>Cotinue Shopping</button>
             <button>Purchase Items</button>
