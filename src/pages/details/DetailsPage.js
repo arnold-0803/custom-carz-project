@@ -16,10 +16,7 @@ function DetailsPage() {
   return (
     <div className="details-page">
       <Navbar cartCount={totalQuantity}/>
-      <div className='container'>
-        <h1>More About this Gallery</h1>
-        <DetailsItems data={item}/>
-      </div>
+      <DetailsItems data={item}/>
     </div>
   )
 }
