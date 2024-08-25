@@ -8,9 +8,10 @@ import { useNavigate } from 'react-router-dom';
 
 function Cart() {
 
-  const {cartItems, getTotalQuantity} = useContext(ShopContext);
+  const {cartItems, getTotalQuantity, getCartTotalAmount} = useContext(ShopContext);
   const navigate = useNavigate();
   const totalQuantity = getTotalQuantity();
+  const totalCartAmount = getCartTotalAmount();
 
   return (
     <div className='cart-wrapper'>
@@ -23,15 +24,23 @@ function Cart() {
         }
         return null;
       })}
-      <div className="base-wrapper">
-        <div className="base-content">
-          <p><b>Total Purchase: $</b></p>
-          <div className="base-btn">
-            <button onClick={() => navigate("/service")}>Cotinue Shopping</button>
-            <button>Purchase Items</button>
+
+      {totalCartAmount > 0 ? (
+        <div className="base-wrapper">
+          <div className="base-content">
+            <p>Total Purchase: <b>${totalCartAmount}</b></p>
+            <div className="base-btn">
+              <button onClick={() => navigate("/service")}>Cotinue Shopping</button>
+              <button>Purchase Items</button>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        <div className="empty-cart">
+          <h1>The Cart is Empty</h1>
+          <button onClick={() => navigate("/service")}>Go to Shop</button>
+        </div>
+      )}
     </div>
   )
 }

@@ -18,17 +18,17 @@ const GalleryPage = () => {
       <h1>Gallery</h1>
       <p><strong>our top classic selection</strong></p>
       <div className="gallery-box">
-        {ImagesData.map((item, index) =>
-          <div key={index} className="card-box">
+        {ImagesData.map((item) =>
+          <div key={item.id} className="card-box">
             {isLoading ? (
               <SkeletonGallarey/>
             ) : (
               <div className="card">
-                <Link>
+                <Link to={`/details/${item.id}`}>
                   <img src={item.src} alt="" />
                   <p>{item.title}</p>
+                  <div className="gradient"></div>
                 </Link>
-                <div className="gradient"></div>
               </div>
             )}
           </div>

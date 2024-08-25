@@ -51,6 +51,19 @@ function CartContextProvider({children}) {
     });
   }
 
+  const getCartTotalAmount = () => {
+    let totalAmount = 0;
+    for(const item in cartItems){
+      if(cartItems[item].quantity > 0){
+        const itemInfo = ServiceData.find(product => product.id === Number(item));
+        if(itemInfo){
+          totalAmount += cartItems[item].quantity * itemInfo.price;
+        }
+      }
+    }
+    return totalAmount;
+  }
+
   return (
     <ShopContext.Provider value={{
       cartItems,
@@ -58,7 +71,8 @@ function CartContextProvider({children}) {
       removeFromCart,
       updateCartItemCount,
       getTotalQuantity,
-      deleteCartItem
+      deleteCartItem,
+      getCartTotalAmount
     }}>
       {children}
     </ShopContext.Provider>

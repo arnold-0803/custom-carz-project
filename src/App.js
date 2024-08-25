@@ -7,6 +7,7 @@ import Home from "./pages/home/HomePage";
 import Service from "./pages/services/ServicesPage";
 import Cart from "./pages/cart/Cart";
 import CartContextProvider from "./context/ShoppingContext";
+import DetailsPage from "./pages/details/DetailsPage";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/about" element={<AboutUs/>}/>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/cart" element={<Cart/>}/>
+            <Route path="/details/:id" element={<DetailsPage/>}/>
           </Routes>
           <Footer/>
         </Router>
