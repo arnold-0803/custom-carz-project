@@ -2,7 +2,7 @@ export const AchievementData = [
   {
     id: 1,
     icon: "fa-solid fa-earth-africa",
-    title: "Places Covered",
+    title: "Regions Covered",
     end: 47,
     symbol: ""
   },
