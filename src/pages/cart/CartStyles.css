@@ -159,7 +159,7 @@
 
 @media screen and (max-width: 540px){
   .cart-wrapper{
-    margin-top: 16%;
+    margin-top: 40px;
   }
 }
 
@@ -206,7 +206,7 @@
 
 @media screen and (max-width: 440px){
   .cart-wrapper{
-    margin-top: 20%;
+    margin-top: 40px;
   }
 
   .base-btn button,

@@ -4,7 +4,8 @@
 }
 
 .swiper-encloser .swiper-wraper{
-  padding-bottom: 30px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #271438;
 }
 
 .swiper-encloser h1{

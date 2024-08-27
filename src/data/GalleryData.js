@@ -62,7 +62,7 @@ export const ImagesData = [
   {
     id: 11,
     src: `${process.env.PUBLIC_URL}/images/image10.jpg`,
-    title:"Nissan Skyline R34 'Red-Devil'",
+    title:"Low Suspention",
     details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
   },
   {

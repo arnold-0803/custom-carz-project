@@ -1,11 +1,11 @@
 import { useContext } from "react";
 import Hero from "../../components/HeroSection";
-import Card from "../../components/ItemCard";
 import Navbar from "../../components/Navbar";
 import { ServiceData } from "../../data/ServiceData";
 import image from "../images/image20.jpg";
 import "./ServicesPageStyles.css";
 import { ShopContext } from "../../context/ShoppingContext";
+import ProductCard from "./ProductCard";
 
 
 const Service = () => {
@@ -25,7 +25,7 @@ const Service = () => {
         <h1>Shop Add to Cart</h1>
         <div className="cards">
           {ServiceData.map((item) => (
-            <Card data={item} key={item.id}/>
+            <ProductCard data={item} key={item.id}/>
           ))}
         </div>
       </div>

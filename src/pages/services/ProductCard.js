@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from "react";
-import SkeletonGallarey from "../assets/SkeletonGallarey";
-import { ShopContext } from "../context/ShoppingContext";
+import SkeletonGallarey from "../../assets/SkeletonGallarey";
+import { ShopContext } from "../../context/ShoppingContext";
 
-const Card = ({data}) => {
+const ProductCard = ({data}) => {
   const {addToCart, cartItems} = useContext(ShopContext);
   const [isLoading, setIsLoading] = useState(true);
   const cartItemAmount = cartItems[data.id]?.quantity || 0;
@@ -31,8 +31,7 @@ const Card = ({data}) => {
           >Add to cart<i className="fa-solid fa-cart-shopping"></i>
           {cartItemAmount > 0 && <>({cartItemAmount})</>}
           </button>
-          <a href={data.src} download={data.src}>
-            <i className="fa-solid fa-download"></i>
+          <a href={data.src} download={data.src}>download image<i className="fa-solid fa-download"></i>
           </a>
           <div className="gradient"></div>
         </div>
@@ -41,4 +40,4 @@ const Card = ({data}) => {
   );
 }
  
-export default Card;
+export default ProductCard;

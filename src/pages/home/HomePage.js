@@ -9,6 +9,7 @@ import img3 from "../images/image3.jpg";
 import img4 from "../images/image4.jpg";
 import img5 from "../images/image5.jpeg";
 import { ShopContext } from "../../context/ShoppingContext";
+import AchievementElementor from "../../components/AchievementElementor";
 
 const Home = () => {
 
@@ -35,7 +36,7 @@ const Home = () => {
       <GalleryPage/>
 
       <Reviews
-        heading="Testimonial Previews"
+        heading="Testimonial Reviews"
 
         text1="
           Lorem ipsum dolor sit 
@@ -87,6 +88,7 @@ const Home = () => {
         name2=""
         name3=""
       />
+      <AchievementElementor/>
     </div>
   );
 }

@@ -13,9 +13,10 @@ const Footer = () => {
               <i className="fa-solid fa-gear"></i>
             </span> Corp.
           </h2>
-          <p>Chopse your best car disign + part</p>
+          <p>Choose your preferred car disign + part</p>
         </div>
-        <div>
+        <div className="sicial-media">
+          <h3>follow Us</h3>
           <a href="/">
             <i className="fa-brands fa-facebook-square"></i>
           </a>
@@ -44,7 +45,7 @@ const Footer = () => {
       </div>
       <p className="copyright">
         <i className="fa-solid fa-copyright"></i>
-        2024 Auto_Arnold powered by ArnoldKiritu | All rightsss reserved
+        2024 powered by ArnoldKiritu | All rightsss reserved
       </p>
     </div>
   );
