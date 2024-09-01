@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/custom-carz-project/static/css/main.f9f8aaed.css",
-    "main.js": "/custom-carz-project/static/js/main.09496f85.js",
+    "main.css": "/custom-carz-project/static/css/main.2209fe63.css",
+    "main.js": "/custom-carz-project/static/js/main.7b99dff3.js",
     "static/media/image2.jpg": "/custom-carz-project/static/media/image2.0dcdc91235496a54294b.jpg",
     "static/media/mercedes-amg-gt-4-door-coupe-6942533.jpg": "/custom-carz-project/static/media/mercedes-amg-gt-4-door-coupe-6942533.a8cba61c81d3f6f2fa17.jpg",
     "static/media/image3.jpg": "/custom-carz-project/static/media/image3.a7b3604dfdec14e155ce.jpg",
@@ -12,11 +12,11 @@
     "static/media/HOSPITAL_ABANDONADO-removebg-preview.png": "/custom-carz-project/static/media/HOSPITAL_ABANDONADO-removebg-preview.edb45a2efff203db40ab.png",
     "static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.png": "/custom-carz-project/static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.d8ec3204a54b3da79cb9.png",
     "index.html": "/custom-carz-project/index.html",
-    "main.f9f8aaed.css.map": "/custom-carz-project/static/css/main.f9f8aaed.css.map",
-    "main.09496f85.js.map": "/custom-carz-project/static/js/main.09496f85.js.map"
+    "main.2209fe63.css.map": "/custom-carz-project/static/css/main.2209fe63.css.map",
+    "main.7b99dff3.js.map": "/custom-carz-project/static/js/main.7b99dff3.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9f8aaed.css",
-    "static/js/main.09496f85.js"
+    "static/css/main.2209fe63.css",
+    "static/js/main.7b99dff3.js"
   ]
 }
