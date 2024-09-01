@@ -1,17 +1,23 @@
+import { useContext } from "react";
 import GalleryPage from "../../components/Gallery";
 import Navbar from "../../components/Navbar";
-import Previews from "../../components/PreviewSwiper";
+import Reviews from "../../components/ReviewSwiper";
 import Swiper from "../../components/Swiper";
 import img1 from "../images/image1.jpg";
 import img2 from "../images/image2.jpg";
 import img3 from "../images/image3.jpg";
 import img4 from "../images/image4.jpg";
+import img5 from "../images/image5.jpeg";
+import { ShopContext } from "../../context/ShoppingContext";
+import AchievementElementor from "../../components/AchievementElementor";
 
 const Home = () => {
 
+  const {getTotalQuantity} = useContext(ShopContext);
+  const totalQuntity = getTotalQuantity();
   return (
     <div className="home">
-      <Navbar/>
+      <Navbar cartCount={totalQuntity}/>
       <Swiper
         subHeading="Welcome at the"
         heading="Custom Carz Corp."
@@ -29,8 +35,8 @@ const Home = () => {
 
       <GalleryPage/>
 
-      <Previews
-        heading="Testimonial Previews"
+      <Reviews
+        heading="Testimonial Reviews"
 
         text1="
           Lorem ipsum dolor sit 
@@ -76,11 +82,13 @@ const Home = () => {
         image2={img2}
         image3={img3}
         image4={img4}
+        image5={img5}
 
         name1="Name"
         name2=""
         name3=""
       />
+      <AchievementElementor/>
     </div>
   );
 }
