@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
 import { useInView } from 'react-intersection-observer';
 
 const AchievementCounter = ({data}) => {

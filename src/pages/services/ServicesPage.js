@@ -14,16 +14,17 @@ const Service = () => {
   const totalQuantity = getTotalQuantity();
   
   return (
-    <div className="service">
+    <div className="service-page">
       <Navbar cartCount={totalQuantity}/>
       <Hero
         heading="Services"
         image={image}
         className="service"
       />
-      <div className="cards-wrapper">
+      <div className="
+      service-wrapper">
         <h1>Shop Add to Cart</h1>
-        <div className="cards">
+        <div className="product-wrapper">
           {ServiceData.map((item) => (
             <ProductCard data={item} key={item.id}/>
           ))}

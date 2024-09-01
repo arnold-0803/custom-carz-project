@@ -14,26 +14,27 @@ const ProductCard = ({data}) => {
   }, [])
 
   return (
-    <div className="product-wrapper">
+    <div className="card-wrapper">
       {isLoading ? (
         <SkeletonGallarey/>
       ) : (
         <div className="card">
           <img src={data.src} alt="" />
-          <p>{data.title}</p>
-          <div className="star-rating">
-            <i className="fa-solid fa-star"></i>
-            <span>{data.rating}</span>
+          <div className="card-gradient-layer">
+            <p>{data.title}</p>
+            <div className="star-rating">
+              <i className="fa-solid fa-star"></i>
+              <b>{data.rating}</b>
+            </div>
+            <span><b>$ {data.price}</b></span>
+            <button
+              onClick={() => addToCart(data.id)}
+            >Add to cart<i className="fa-solid fa-cart-shopping"></i>
+            {cartItemAmount > 0 && <>({cartItemAmount})</>}
+            </button>
+            <a href={data.src} download={data.src}>download image<i className="fa-solid fa-download"></i>
+            </a>
           </div>
-          <span><b>$ {data.price}</b></span>
-          <button
-            onClick={() => addToCart(data.id)}
-          >Add to cart<i className="fa-solid fa-cart-shopping"></i>
-          {cartItemAmount > 0 && <>({cartItemAmount})</>}
-          </button>
-          <a href={data.src} download={data.src}>download image<i className="fa-solid fa-download"></i>
-          </a>
-          <div className="gradient"></div>
         </div>
       )}
     </div>
