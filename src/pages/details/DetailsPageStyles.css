@@ -117,15 +117,11 @@
 
 @media screen and (max-width: 442px) {
   .details-page{
-    margin-top: 25%;
+    margin-top: 21%;
   }
 }
 
 @media screen and (max-width: 371px) {
-  .details-page{
-    margin-top: 26%;
-  }
-
   .image-content img{
     height: 220px;
   }

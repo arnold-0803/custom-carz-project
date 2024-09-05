@@ -84,19 +84,13 @@
 
 @media screen and (max-width: 540px){
   .hero-section{
-    margin-top: 22%;
+    margin-top: 20%;
   }
 }
 
 @media screen and (max-width: 440px){
   .hero-section{
-    margin-top: 24%;
-  }
-}
-
-@media screen and (max-width: 400px){
-  .hero-section{
-    margin-top: 26%;
+    margin-top: 22%;
   }
 }
 
