@@ -55,7 +55,7 @@ const Contact = () => {
                 <a href="https://www.whatsapp.com">
                   <i className="fa-brands fa-whatsapp"></i>
                 </a>
-                <a href="#facebook">
+                <a href="https://facebook.com">
                   <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a href="https://www.twitter.com">
