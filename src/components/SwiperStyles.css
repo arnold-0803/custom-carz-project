@@ -136,7 +136,7 @@
 
 @media screen and (max-width: 442px) {
   .mySwiper{
-    margin-top: 25%;
+    margin-top: 21%;
   }
 
   .swiper-box h3{
@@ -153,11 +153,11 @@
   }
 }
 
-@media screen and (max-width: 371px) {
+/* @media screen and (max-width: 371px) {
   .mySwiper{
     margin-top: 26%;
   }
-}
+} */
 
 
 

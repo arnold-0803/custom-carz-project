@@ -17,13 +17,13 @@ const Footer = () => {
         </div>
         <div className="sicial-media">
           <h3>follow Us</h3>
-          <a href="/">
+          <a href="https://facebook.com">
             <i className="fa-brands fa-facebook-square"></i>
           </a>
-          <a href="/">
+          <a href="https://instagram.com">
             <i className="fa-brands fa-instagram-square"></i>
           </a>
-          <a href="/"><i className="fa-brands fa-square-x-twitter"></i></a>
+          <a href="https://twiter.com"><i className="fa-brands fa-square-x-twitter"></i></a>
         </div>
       </div>
       <div className="bottom-section">

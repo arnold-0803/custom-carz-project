@@ -3,10 +3,20 @@ import { ImagesData } from "../data/GalleryData";
 import "./GalleryStyles.css";
 import { useEffect, useState } from "react";
 import SkeletonGallarey from "../assets/SkeletonGallarey";
+import CustomPagination from "./PagesPagination";
 
 const GalleryPage = () => {
 
   const [isLoading, setIsLoading] = useState(true);
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 12;
+
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = ImagesData.slice(indexOfFirstItem, indexOfLastItem);
+
+  const totalPages = Math.ceil(ImagesData.length / itemsPerPage);
 
   useEffect(() => {
     setTimeout(() => {
@@ -18,7 +28,7 @@ const GalleryPage = () => {
       <h1>Gallery</h1>
       <p><strong>our top classic selection</strong></p>
       <div className="gallery-box">
-        {ImagesData.map((item) =>
+        {currentItems.map((item) =>
           <div key={item.id} className="card-box">
             {isLoading ? (
               <SkeletonGallarey/>
@@ -34,6 +44,11 @@ const GalleryPage = () => {
           </div>
         )}
       </div>
+      <CustomPagination
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+        totalPages={totalPages}
+      />
     </div>
   );
 }

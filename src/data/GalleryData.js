@@ -70,5 +70,65 @@ export const ImagesData = [
     src: `${process.env.PUBLIC_URL}/images/image11.jpg`,
     title:"Mrs Pinky",
     details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 13,
+    src: `${process.env.PUBLIC_URL}/images/2cbdbc5b67caa0b8c3c0a958ba8ce59d.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 14,
+    src: `${process.env.PUBLIC_URL}/images/123911e9d560a54c9d87d2a3028ba283.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 15,
+    src: `${process.env.PUBLIC_URL}/images/image17.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 16,
+    src: `${process.env.PUBLIC_URL}/images/image18.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 17,
+    src: `${process.env.PUBLIC_URL}/images/image12.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 18,
+    src: `${process.env.PUBLIC_URL}/images/84ebe20ec173fd7199ed33e9967ad901.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 19,
+    src: `${process.env.PUBLIC_URL}/images/image15.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 20,
+    src: `${process.env.PUBLIC_URL}/images/image13.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 21,
+    src: `${process.env.PUBLIC_URL}/images/9220d66239d9769230425c48d75c0a5d.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
+  },
+  {
+    id: 22,
+    src: `${process.env.PUBLIC_URL}/images/image16.jpg`,
+    title:"............",
+    details: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat ipsum laborum vel error possimus beatae minus fugit eum ipsam! Harum, maiores perferendis quo repellendus architecto quae id eveniet modi placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae nulla a eos! Exercitationem id, esse error ea magnam incidunt eius ad quaerat nam natus, quam odio velit asperiores temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nobis, dignissimos quibusdam sequi doloribus culpa recusandae voluptates nam magnam quaerat accusamus necessitatibus ducimus ea fugit nisi? Dicta commodi esse nisi."
   }
 ]

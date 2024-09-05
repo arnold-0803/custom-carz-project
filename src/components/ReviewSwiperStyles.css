@@ -68,6 +68,10 @@
 
 /* MEDIA QUERY */
 @media screen and (max-width: 550px) {
+  .swiper-encloser{
+    margin-top: 8%;
+  }
+
   .swiper-encloser h1{
     font-size: 1.5rem;
   }

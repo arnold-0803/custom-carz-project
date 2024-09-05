@@ -1,0 +1,41 @@
+.pagination-wrapper{
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-wrapper .prev-btn,
+.pagination-wrapper .next-btn{
+  border: none;
+}
+
+.pagination-wrapper button i{
+  display: inline;
+  background: #271438;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.prev-btn{
+  margin-right: 8px;
+}
+
+.next-btn{
+  margin-left: 8px;
+}
+
+.pagination-wrapper div{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.pagination-wrapper .number-btn{
+  padding: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #271438;
+}
