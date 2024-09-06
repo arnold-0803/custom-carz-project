@@ -20,20 +20,23 @@ const ProductCard = ({data}) => {
       ) : (
         <div className="card">
           <img src={data.src} alt="" />
-          <div className="card-gradient-layer">
-            <p>{data.title}</p>
-            <div className="star-rating">
-              <i className="fa-solid fa-star"></i>
-              <b>{data.rating}</b>
-            </div>
-            <span><b>$ {data.price}</b></span>
-            <button
-              onClick={() => addToCart(data.id)}
-            >Add to cart<i className="fa-solid fa-cart-shopping"></i>
-            {cartItemAmount > 0 && <>({cartItemAmount})</>}
-            </button>
-            <a href={data.src} download={data.src}>download image<i className="fa-solid fa-download"></i>
-            </a>
+          <p>{data.prodName}</p>
+          <span>{data.description}</span>
+          <div className="star-rating">
+            <i className="fa-solid fa-star"></i>
+            <b>{data.rating}</b>
+          </div>
+          <span className="price"><b>$ {data.price}</b></span>
+          <button
+            onClick={() => addToCart(data.id)}
+          >Add to cart<i className="fa-solid fa-cart-shopping"></i>
+          {cartItemAmount > 0 && <>({cartItemAmount})</>}
+          </button>
+          <a href={data.src} download={data.src}>download image<i className="fa-solid fa-download"></i>
+          </a>
+          <div className="sales-tag">
+            <i className="fa-solid fa-tag"></i>
+            <span>Sale</span>
           </div>
         </div>
       )}

@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import Hero from "../../components/HeroSection";
 import Navbar from "../../components/Navbar";
 import image from "../images/mercedes-amg-gt-4-door-coupe-6942533.jpg";
 import { ShopContext } from "../../context/ShoppingContext";
@@ -7,6 +6,7 @@ import { AboutData } from "../../data/AboutData";
 import AboutCard from "./AboutCard";
 import "./AboutPageStyles.css";
 import AchievementElementor from "../../components/AchievementElementor";
+import HeroBanner from "../../components/HeroBanner";
 
 const AboutUs = () => {
 
@@ -16,7 +16,7 @@ const AboutUs = () => {
   return (
     <div className="about-page">
       <Navbar cartCount={totalQuantity}/>
-      <Hero
+      <HeroBanner
         heading="About Us"
         image={image}
         className="about"

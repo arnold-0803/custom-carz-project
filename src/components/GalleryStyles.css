@@ -19,14 +19,15 @@
 
 .gallery-box{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(239px, 1fr));
   gap: 1.5rem;
+  padding: 10px 40px 40px;
 }
 
 .gallery-box .card{
   position: relative;
   cursor: pointer;
-  height: 250px;
+  height: 230px;
   border-radius: 8px;
   transition: .3s ease-in-out;
 }
@@ -85,5 +86,29 @@
 @media screen and (max-width: 550px) {
   .gallery h1{
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gallery-box .card{
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .gallery-box{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media screen and (max-width: 503px) {
+  .gallery-box{
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery-box{
+    padding: 0 30px;
   }
 }

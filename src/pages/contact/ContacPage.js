@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import Hero from "../../components/HeroSection";
 import Navbar from "../../components/Navbar";
 import image from "../images/image19.jpg";
 import { ShopContext } from "../../context/ShoppingContext";
 import "./ContacPageStyles.css";
+import HeroBanner from "../../components/HeroBanner";
 
 const Contact = () => {
 
@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <Navbar cartCount={totalQuantity} />
-      <Hero
+      <HeroBanner
         image={image}
         heading="Contacts"
         className="contact"

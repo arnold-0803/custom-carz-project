@@ -1,7 +1,7 @@
 .details-page{
   width: 100%;
-  margin-top: 8%;
-  padding-bottom: 40px;
+  margin-top: 6%;
+  padding: 0 20px 40px;
 }
 
 .details-page .details-wrapper h1{
@@ -71,19 +71,19 @@
 
 @media screen and (max-width: 892px) {
   .details-page{
-    margin-top: 11%;
+    margin-top: 8%;
   }
 }
 
 @media screen and (max-width: 800px) {
   .details-page{
-    margin-top: 12%;
+    margin-top: 10%;
   }
 }
 
 @media screen and (max-width: 732px) {
   .details-page{
-    margin-top: 14%;
+    margin-top: 12%;
   }
 
   .details-wrapper .container{
@@ -93,31 +93,22 @@
 
 @media screen and (max-width: 632px) {
   .details-page{
-    margin-top: 16%;
+    margin-top: 14%;
   }
 }
 
 @media screen and (max-width: 552px) {
   .details-page{
-    margin-top: 18%;
+    margin-top: 16%;
   }
-}
-
-@media screen and (max-width: 500px) {
   .details-page .details-wrapper h1{
     font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 420px) {
   .details-page{
-    margin-top: 20%;
-  }
-}
-
-@media screen and (max-width: 442px) {
-  .details-page{
-    margin-top: 21%;
+    padding: 0 10px 40px;
   }
 }
 

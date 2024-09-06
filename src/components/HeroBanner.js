@@ -1,6 +1,6 @@
-import "./HeroSectionStyles.css";
+import "./HeroBannerStyles.css";
 
-const Hero = (props) => {
+const HeroBanner = (props) => {
   return (
     <div className="hero-section">
       <div className="hero-content">
@@ -11,4 +11,4 @@ const Hero = (props) => {
   );
 }
  
-export default Hero;
+export default HeroBanner;

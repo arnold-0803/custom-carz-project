@@ -1,6 +1,6 @@
 .hero-section{
   position: relative;
-  margin-top: 8%;
+  margin-top: 6%;
   width: 100%;
   max-height: 100vh;
   background: #31363F;
@@ -79,18 +79,6 @@
 @media screen and (max-width: 640px){
   .hero-section{
     margin-top: 18%;
-  }
-}
-
-@media screen and (max-width: 540px){
-  .hero-section{
-    margin-top: 20%;
-  }
-}
-
-@media screen and (max-width: 440px){
-  .hero-section{
-    margin-top: 22%;
   }
 }
 
