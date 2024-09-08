@@ -10,3 +10,8 @@
 .App{
   position: relative;
 }
+
+.home .hero-section-wrapper{
+  width: 100%;
+  padding: 0 10px;
+}

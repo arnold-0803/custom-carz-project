@@ -38,14 +38,14 @@ const SwiperScreen = ({
       {data.map((item) => (
         <SwiperSlide key={item.id} className='swiper-slide'>
           <div className="left top">
-            <h2>{item.heading}</h2>
-            <h3>{item.subheading}</h3>
+            <h2>{item.subheading}</h2>
+            <h3>{item.heading}</h3>
             <p>{item.para}</p>
           </div>
           <div className="right bottom">
             <img src={item.image} alt="" />
             <b>{item.name}</b>
-            <p>{item.words}</p>
+            <p>{item.testimony}</p>
           </div>
         </SwiperSlide>
       ))}
