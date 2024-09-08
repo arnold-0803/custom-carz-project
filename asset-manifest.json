@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/custom-carz-project/static/css/main.9fcfa510.css",
-    "main.js": "/custom-carz-project/static/js/main.d74595da.js",
+    "main.css": "/custom-carz-project/static/css/main.f3b078cd.css",
+    "main.js": "/custom-carz-project/static/js/main.ec2a31df.js",
     "static/media/image2.jpg": "/custom-carz-project/static/media/image2.0dcdc91235496a54294b.jpg",
     "static/media/mercedes-amg-gt-4-door-coupe-6942533.jpg": "/custom-carz-project/static/media/mercedes-amg-gt-4-door-coupe-6942533.a8cba61c81d3f6f2fa17.jpg",
     "static/media/image3.jpg": "/custom-carz-project/static/media/image3.a7b3604dfdec14e155ce.jpg",
-    "static/media/image20.jpg": "/custom-carz-project/static/media/image20.fcb694f05461b65470ff.jpg",
     "static/media/image19.jpg": "/custom-carz-project/static/media/image19.0aab1db600d864eff8ff.jpg",
     "static/media/image1.jpg": "/custom-carz-project/static/media/image1.a40469a293622db31529.jpg",
     "static/media/image4.jpg": "/custom-carz-project/static/media/image4.08c5dedc96b4b67cc48f.jpg",
     "static/media/HOSPITAL_ABANDONADO-removebg-preview.png": "/custom-carz-project/static/media/HOSPITAL_ABANDONADO-removebg-preview.edb45a2efff203db40ab.png",
+    "static/media/_.jpeg": "/custom-carz-project/static/media/_.947e52b468e02463a457.jpeg",
     "static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.png": "/custom-carz-project/static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.d8ec3204a54b3da79cb9.png",
     "index.html": "/custom-carz-project/index.html",
-    "main.9fcfa510.css.map": "/custom-carz-project/static/css/main.9fcfa510.css.map",
-    "main.d74595da.js.map": "/custom-carz-project/static/js/main.d74595da.js.map"
+    "main.f3b078cd.css.map": "/custom-carz-project/static/css/main.f3b078cd.css.map",
+    "main.ec2a31df.js.map": "/custom-carz-project/static/js/main.ec2a31df.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fcfa510.css",
-    "static/js/main.d74595da.js"
+    "static/css/main.f3b078cd.css",
+    "static/js/main.ec2a31df.js"
   ]
 }
