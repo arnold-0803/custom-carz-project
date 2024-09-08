@@ -19,10 +19,20 @@ const GalleryPage = () => {
   const totalPages = Math.ceil(ImagesData.length / itemsPerPage);
 
   useEffect(() => {
-    setTimeout(() => {
+    const timeoutId = setTimeout(() => {
       setIsLoading(false);
-    }, 3000)
-  }, [])
+    }, 3000);
+    return () => clearTimeout(timeoutId);
+  }, []);
+
+  // scroll to top whenever the page changes
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
+  }, [currentPage]);
+
   return (
     <div className="gallery">
       <h1>Gallery</h1>

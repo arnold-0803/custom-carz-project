@@ -1,3 +1,8 @@
+.container-wrapper{
+  width: 100%;
+  padding: 0 10px;
+}
+
 .achievement-wrapper{
   width: 100%;
   background: #27143891;

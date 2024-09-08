@@ -1,15 +1,71 @@
 import { useContext } from "react";
 import GalleryPage from "../../components/Gallery";
 import Navbar from "../../components/Navbar";
-import Reviews from "../../components/ReviewSwiper";
-import Swiper from "../../components/Swiper";
-import img1 from "../images/image1.jpg";
-import img2 from "../images/image2.jpg";
-import img3 from "../images/image3.jpg";
-import img4 from "../images/image4.jpg";
-import img5 from "../images/image5.jpeg";
+import img1 from "../../images/image1.jpg";
+import img2 from "../../images/image2.jpg";
+import img3 from "../../images/image3.jpg";
+import img4 from "../../images/image4.jpg";
+import img5 from "../../images/image5.jpeg";
+import image1 from "../../images/pix/HOSPITAL_ABANDONADO-removebg-preview.png";
+import image2 from "../../images/pix/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.png";
 import { ShopContext } from "../../context/ShoppingContext";
 import AchievementElementor from "../../components/AchievementElementor";
+import SwiperScreen from "../../components/SwiperScreen";
+import ClientsReviews from "../../components/ClientsReviews";
+
+
+// HeroSwiper data
+const slideScreenData = [
+  {
+    id: 1,
+    image: image1,
+    heading: "Custom Auto Carz Corp",
+    subheading: "Welcome to",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, repudiandae eius. Atque voluptas voluptatum similique. Enim possimus recusandae itaque quisquam ex fugiat magni ad aliquam distinctio. Beatae earum accusamus alias, rem minus fuga ipsa voluptates!"
+  },
+  {
+    id: 2,
+    image: image2,
+    heading: "Custom Auto Carz Corp",
+    subheading: "Welcome to",
+    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, repudiandae eius. Atque voluptas voluptatum similique. Enim possimus recusandae itaque quisquam ex fugiat magni ad aliquam distinctio. Beatae earum accusamus alias, rem minus fuga ipsa voluptates!"
+  }
+]
+
+
+// Review data from clients
+const ReviewsData = [
+  {
+    id: 1,
+    image: img1,
+    name: "Person 1",
+    testimony: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolor quos eum deleniti accusantium odio corporis, temporibus vitae repellendus doloremque sint commodi!"'
+  },
+  {
+    id: 2,
+    image: img2,
+    name: "Person 2",
+    testimony: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolor quos eum deleniti accusantium odio corporis, temporibus vitae repellendus doloremque sint commodi!"'
+  },
+  {
+    id: 3,
+    image: img3,
+    name: "Person 3",
+    testimony: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolor quos eum deleniti accusantium odio corporis, temporibus vitae repellendus doloremque sint commodi!"'
+  },
+  {
+    id: 4,
+    image: img4,
+    name: "Person 4",
+    testimony: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolor quos eum deleniti accusantium odio corporis, temporibus vitae repellendus doloremque sint commodi!"'
+  },
+  {
+    id: 5,
+    image: img5,
+    name: "Person 5",
+    testimony: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolor quos eum deleniti accusantium odio corporis, temporibus vitae repellendus doloremque sint commodi!"'
+  }
+]
 
 const Home = () => {
 
@@ -18,76 +74,22 @@ const Home = () => {
   return (
     <div className="home">
       <Navbar cartCount={totalQuntity}/>
-      <Swiper
-        subHeading="Welcome at the"
-        heading="Custom Carz Corp."
-        text="
-        Lorem ipsum dolor sit, 
-        amet consectetur adipisicing 
-        elit. Vitae magnam odio 
-        mollitia exercitationem dicta 
-        quae eligendi saepe blanditiis 
-        consectetur sequi recusandae 
-        amet fugit sunt dolores, id 
-        animi possimus similique esse.
-        "
-      />
+      <div className="hero-section-wrapper">
+        <SwiperScreen
+          data={slideScreenData}
+          autoplay={{delay: 2200, disableOnInteraction: false,}}
+          spaceBetween={5}
+          navigation={true}
+          pagination={true}
+          loop={false}
+          customClass="Hero-swiper"
+        />
+      </div>
 
       <GalleryPage/>
 
-      <Reviews
-        heading="Testimonial Reviews"
+      <ClientsReviews data={ReviewsData}/>
 
-        text1="
-          Lorem ipsum dolor sit 
-          amet consectetur 
-          adipisicing elit. 
-          Repudiandae aliquid at 
-          consectetur delectus 
-          labore ratione minima, 
-          fugit dolor quos eum 
-          deleniti accusantium odio 
-          corporis, temporibus vitae 
-          repellendus doloremque 
-          sint commodi!
-        "
-        text2="
-          Lorem ipsum dolor sit 
-          amet consectetur 
-          adipisicing elit. 
-          Repudiandae aliquid at 
-          consectetur delectus 
-          labore ratione minima, 
-          fugit dolor quos eum 
-          deleniti accusantium odio 
-          corporis, temporibus vitae 
-          repellendus doloremque 
-          sint commodi!
-        "
-        text3="
-          Lorem ipsum dolor sit 
-          amet consectetur 
-          adipisicing elit. 
-          Repudiandae aliquid at 
-          consectetur delectus 
-          labore ratione minima, 
-          fugit dolor quos eum 
-          deleniti accusantium odio 
-          corporis, temporibus vitae 
-          repellendus doloremque 
-          sint commodi!
-        "
-
-        image1={img1}
-        image2={img2}
-        image3={img3}
-        image4={img4}
-        image5={img5}
-
-        name1="Name"
-        name2=""
-        name3=""
-      />
       <AchievementElementor/>
     </div>
   );

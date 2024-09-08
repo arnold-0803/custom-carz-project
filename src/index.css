@@ -9,7 +9,9 @@
 
 .App{
   position: relative;
-  background-color: #faf5f5;
-  padding: 0 5%;
-  padding-bottom: 40px;
+}
+
+.home .hero-section-wrapper{
+  width: 100%;
+  padding: 0 10px;
 }

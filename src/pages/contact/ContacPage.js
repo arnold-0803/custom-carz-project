@@ -1,9 +1,20 @@
 import { useContext } from "react";
-import Hero from "../../components/HeroSection";
 import Navbar from "../../components/Navbar";
-import image from "../images/image19.jpg";
+import image from "../../images/pix/image19.jpg";
 import { ShopContext } from "../../context/ShoppingContext";
 import "./ContacPageStyles.css";
+import HeroBanner from "../../components/HeroBanner";
+
+const contactData = [
+  {
+    id: 1,
+    heading: "Contact Us",
+    subHeading: "Auto Carz Corp",
+    additionalHeading: "Read More About Our Contacts",
+    image: image,
+    paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolor quos eum deleniti accusantium odio corporis, temporibus vitae repellendus doloremque sint commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia veniam dolor saepe? Nesciunt ipsam error, quidem enim explicabo suscipit sit vitae voluptas itaque tenetur, totam excepturi officiis? Molestiae, doloremque."
+  }
+];
 
 const Contact = () => {
 
@@ -13,10 +24,9 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <Navbar cartCount={totalQuantity} />
-      <Hero
-        image={image}
-        heading="Contacts"
-        className="contact"
+      <HeroBanner
+        data={contactData}
+        customClass="contact-banner"
       />
       <div className="contact-wrapper">
         <h1>Let Us Know Your Feedback & Suggestion</h1>

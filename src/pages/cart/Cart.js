@@ -16,14 +16,28 @@ function Cart() {
   return (
     <div className='cart-wrapper'>
       <Navbar cartCount={totalQuantity}/>
-      <h1>Shopping Cart Items</h1>
-      {ServiceData.map(item => {
-        const itemQuantity = cartItems[item.id]?.quantity;
-        if(itemQuantity > 0){
-          return <CartItem data={item} key={item.id}/>
-        }
-        return null;
-      })}
+      <h1>Your Shopping Cart</h1>
+      <div className="cart-content">
+        {totalCartAmount > 0 ? (
+          <div className="table-bar">
+            <div className="empty-content"></div>
+            <div className="table-content">
+              <p>Quantity</p>
+              <p>Price</p>
+            </div>
+          </div>
+        ) : (
+          ""
+        )}
+
+        {ServiceData.map(item => {
+          const itemQuantity = cartItems[item.id]?.quantity;
+          if(itemQuantity > 0){
+            return <CartItem data={item} key={item.id}/>
+          }
+          return null;
+        })}
+      </div>
 
       {totalCartAmount > 0 ? (
         <div className="base-wrapper">
@@ -31,7 +45,7 @@ function Cart() {
             <p>Total Purchase: <b>${totalCartAmount}</b></p>
             <div className="base-btn">
               <button onClick={() => navigate("/service")}>Cotinue Shopping</button>
-              <button>Purchase Items</button>
+              <button>Checkout</button>
             </div>
           </div>
         </div>

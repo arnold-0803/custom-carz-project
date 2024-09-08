@@ -1,25 +1,35 @@
 import { useContext } from "react";
-import Hero from "../../components/HeroSection";
 import Navbar from "../../components/Navbar";
-import image from "../images/mercedes-amg-gt-4-door-coupe-6942533.jpg";
+import image from "../../images/pix/mercedes-amg-gt-4-door-coupe-6942533.jpg";
 import { ShopContext } from "../../context/ShoppingContext";
 import { AboutData } from "../../data/AboutData";
 import AboutCard from "./AboutCard";
 import "./AboutPageStyles.css";
 import AchievementElementor from "../../components/AchievementElementor";
+import HeroBanner from "../../components/HeroBanner";
 
 const AboutUs = () => {
 
   const {getTotalQuantity} = useContext(ShopContext);
   const totalQuantity = getTotalQuantity();
 
+  const aboutData = [
+    {
+      id: 1,
+      heading: "About",
+      subHeading: "Auto Carz Corp",
+      additionalHeading: "Read More About Us",
+      image: image,
+      paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolor quos eum deleniti accusantium odio corporis, temporibus vitae repellendus doloremque sint commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia veniam dolor saepe? Nesciunt ipsam error, quidem enim explicabo suscipit sit vitae voluptas itaque tenetur, totam excepturi officiis? Molestiae, doloremque."
+    }
+  ];
+
   return (
     <div className="about-page">
       <Navbar cartCount={totalQuantity}/>
-      <Hero
-        heading="About Us"
-        image={image}
-        className="about"
+      <HeroBanner
+        data={aboutData}
+        customClass="about-banner"
       />
       <div className="about-wrapper">
         <h1>Know About Us</h1>
@@ -33,5 +43,5 @@ const AboutUs = () => {
     </div>
   );
 }
- 
+
 export default AboutUs;

@@ -118,7 +118,6 @@
     top: 100%;
     left: 0;
     width: 100%;
-    min-height: 0;
     background: #fff;
     visibility: hidden;
     transition: min-height 0.4s;
@@ -127,7 +126,7 @@
 
   .menu-bar.active{
     visibility: visible;
-    min-height: 87vh;
+    min-height: 100vh;
     overflow-y: scroll;
   }
 

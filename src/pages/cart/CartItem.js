@@ -17,13 +17,22 @@ function CartItem({data}) {
     <div className='cart-item'>
       <div className="cart-left">
         <img src={data.src} alt="" />
+        <div className="product-details">
+          <p><b>{data.prodName}</b></p>
+          <p>{data.description}</p>
+        </div>
       </div>
       
       <div className="cart-right">
-        <p>Product: <b>{data.title}</b></p>
-        <p>Quantity: <b>{itemQuantity}</b></p>
-        <p>Price: <b>${data.price}</b></p>
-        <div className="inc-dec">
+        <div className="table-content">
+          <p>Quantity</p>
+          <p>Price</p>
+        </div>
+        <div className="quant-price">
+          <b>{itemQuantity}</b>
+          <b>${data.price}</b>
+        </div>
+        <div className="increase-decrease">
           <button onClick={() => removeFromCart(data.id)}>-</button>
           <input value={itemQuantity} onChange={handlQuantityUpdate}/>
           <button onClick={() => addToCart(data.id)}>+</button>
