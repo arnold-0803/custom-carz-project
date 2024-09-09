@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 4%;
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
   z-index: 2;
   background: #fff;
 }
@@ -32,7 +32,7 @@
 
 .navbar .menu-wrapper .menu-bar{
   display: flex;
-  margin-right: 50px;
+  margin-right: 110px;
 }
 
 .menu-bar .menu-list{
@@ -72,6 +72,53 @@
 .menu-bar-plus-cart i{
   padding: 19.5px 12px;
   font-size: 1.3rem;
+}
+
+.search-icon i{
+  display: inline-block;
+  background: #2714388a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-bar-wrapper{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  z-index: 3;
+}
+
+.search-bar-wrapper form{
+  position: relative;
+  display: flex;
+  width: 400px;
+}
+
+.search-bar-wrapper form input{
+  width: 70%;
+  padding: 10px 5px;
+  font-size: 1.2rem;
+  color: #271438;
+  background: #dddddd8c;
+  border: none;
+  outline: none;
+}
+
+.search-bar-wrapper form button{
+  width: 30%;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  background: #271438d0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .cart a{
@@ -134,9 +181,8 @@
     position: relative;
     width: 100%;
     height: 100%;
-    top: 100%;
     flex-direction: column;
-    padding-top: 10px;
+    margin-top: 80px;
   }
 
   .menu-list li{
@@ -154,8 +200,15 @@
     right: 13px;
   }
 
+  .search-bar-wrapper{
+    box-shadow: none;
+  }
+
+  .search-icon i{
+    display: none;
+  }
+
   .cart a i{
-    background: #2714388a;
     padding: 12px;
   }
 

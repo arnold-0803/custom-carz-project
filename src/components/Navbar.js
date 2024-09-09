@@ -2,6 +2,7 @@ import {MenuItems} from "../data/MenuItems";
 import { NavLink, Link } from "react-router-dom";
 import "./NavbarStyles.css";
 import { useState } from "react";
+import SearchComponent from "./SearchComponent";
 
 
 const Navbar = ({cartCount}) => {
@@ -11,6 +12,7 @@ const Navbar = ({cartCount}) => {
   function handleClick () {
     setDisplay(!display)
   }
+
   return (
     <div className="navbar">
       <Link to={"/"} className="nav-logo">
@@ -20,6 +22,11 @@ const Navbar = ({cartCount}) => {
           </span>ld
         </h2>
       </Link>
+
+      {display && (
+        <SearchComponent/>
+      )}
+
       <div className="menu-wrapper">
         <div className={display ? "menu-bar active" : "menu-bar"}>
           <ul className="menu-list">
@@ -32,7 +39,11 @@ const Navbar = ({cartCount}) => {
             )}
           </ul>
         </div>
-        <div className="menu-bar-plus-cart">
+        
+        <div className="menu-bar-plus-cart" onClick={handleClick}>
+          <div className="search-icon">
+            <i className="fa-solid fa-search"></i>
+          </div>
           <div className="cart">
             <NavLink to={"/cart"}>
               <i className="fa-solid fa-cart-shopping"></i>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./FooterStyles.css";
 
 const Footer = () => {
@@ -8,12 +9,9 @@ const Footer = () => {
           <h2>arn
             <span>
               <i className="fa-solid fa-gear"></i>
-            </span>ld auto
-            <span>
-              <i className="fa-solid fa-gear"></i>
-            </span> Corp.
+            </span>ld auto Corp.
           </h2>
-          <p>Choose your preferred car disign + part</p>
+          <p>Choose your preferred car disign from gallery + car body parts from our products</p>
         </div>
         <div className="sicial-media">
           <h3>follow Us</h3>
@@ -29,12 +27,12 @@ const Footer = () => {
       <div className="bottom-section">
         <div>
           <h4>Community</h4>
-          <a href="/">Eastland Carwash</a>
+          <a href="/">Eastland Car-wash</a>
           <a href="/">Github</a>
         </div>
         <div>
-          <h4>Reach Us</h4>
-          <a href="/">Contact Us</a>
+          <h4>Reachout to Us</h4>
+          <Link to={"/contact"}>Contact Us</Link>
           <a href="/">Suport</a>
         </div>
         <div>
@@ -45,7 +43,7 @@ const Footer = () => {
       </div>
       <p className="copyright">
         <i className="fa-solid fa-copyright"></i>
-        2024 powered by ArnoldKiritu | All rightsss reserved
+        2024 powered by Arnold Kiritu | All rightsss reserved
       </p>
     </div>
   );
