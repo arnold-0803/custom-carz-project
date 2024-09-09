@@ -81,6 +81,10 @@
   cursor: pointer;
 }
 
+.search-icon i.active{
+  background: #271438;
+}
+
 .search-bar-wrapper{
   position: absolute;
   top: 100%;

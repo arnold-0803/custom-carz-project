@@ -40,9 +40,12 @@ const Navbar = ({cartCount}) => {
           </ul>
         </div>
         
-        <div className="menu-bar-plus-cart" onClick={handleClick}>
+        <div className="menu-bar-plus-cart">
           <div className="search-icon">
-            <i className="fa-solid fa-search"></i>
+            <i 
+              className={`fa-solid fa-search ${display ? "active" : ""}`} 
+              onClick={handleClick}
+            ></i>
           </div>
           <div className="cart">
             <NavLink to={"/cart"}>
