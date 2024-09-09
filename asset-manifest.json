@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/custom-carz-project/static/css/main.34b1e200.css",
-    "main.js": "/custom-carz-project/static/js/main.ae2e5b40.js",
+    "main.css": "/custom-carz-project/static/css/main.be186c2f.css",
+    "main.js": "/custom-carz-project/static/js/main.b817c64f.js",
     "static/media/image2.jpg": "/custom-carz-project/static/media/image2.0dcdc91235496a54294b.jpg",
     "static/media/mercedes-amg-gt-4-door-coupe-6942533.jpg": "/custom-carz-project/static/media/mercedes-amg-gt-4-door-coupe-6942533.a8cba61c81d3f6f2fa17.jpg",
     "static/media/image3.jpg": "/custom-carz-project/static/media/image3.a7b3604dfdec14e155ce.jpg",
@@ -12,11 +12,11 @@
     "static/media/image18.jpg": "/custom-carz-project/static/media/image18.947e52b468e02463a457.jpg",
     "static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.png": "/custom-carz-project/static/media/c80de96d-26ee-47f0-861c-ce9319001919-removebg-preview.d8ec3204a54b3da79cb9.png",
     "index.html": "/custom-carz-project/index.html",
-    "main.34b1e200.css.map": "/custom-carz-project/static/css/main.34b1e200.css.map",
-    "main.ae2e5b40.js.map": "/custom-carz-project/static/js/main.ae2e5b40.js.map"
+    "main.be186c2f.css.map": "/custom-carz-project/static/css/main.be186c2f.css.map",
+    "main.b817c64f.js.map": "/custom-carz-project/static/js/main.b817c64f.js.map"
   },
   "entrypoints": [
-    "static/css/main.34b1e200.css",
-    "static/js/main.ae2e5b40.js"
+    "static/css/main.be186c2f.css",
+    "static/js/main.b817c64f.js"
   ]
 }
