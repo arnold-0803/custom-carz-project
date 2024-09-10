@@ -53,14 +53,14 @@ function Cart() {
                 agreed with your terms of service, 
                 transport, and refunding policies.
               </em>
-          </form>
-          <div className="base-content">
-            <p>Total Purchase: <b>${totalCartAmount}</b></p>
-            <div className="base-btn">
-              <button onClick={() => navigate("/service")}>Cotinue Shopping</button>
-              <button>Checkout</button>
+            <div className="base-content">
+              <p>Total Purchase: <b>${totalCartAmount}</b></p>
+              <div className="form-btn">
+                <button onClick={() => navigate("/service")}>Cotinue Shopping</button>
+                <button>Checkout</button>
+              </div>
             </div>
-          </div>
+          </form>
         </div>
       ) : (
         <div className="empty-cart">
