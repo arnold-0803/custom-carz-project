@@ -29,31 +29,28 @@
   padding: 20px 0;
 }
 
-.cart-content .table-bar{
+.cart-content .table-header{
   width: 100%;
   max-width: 1000px;
   display: flex;
 }
 
-.table-bar .empty-content,
-.table-bar .table-content{
-  flex: 1;
-}
-
-.table-content{
+.table-header .title-content,
+.table-header .quantity-price-content{
+  width: 50%;
+  border: 1px solid #ddd;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   background: #fff;
-  border: 1px solid #ddd;
 }
 
-.table-content p{
+.title-content p,
+.quantity-price-content p{
   color: #66666685;
   font-size: 1.3rem;
   font-weight: 600;
-  /* text-decoration: underline; */
 }
 
 .cart-content .cart-item {
@@ -66,7 +63,7 @@
 
 .cart-item .cart-left,
 .cart-item .cart-right {
-  flex: 1;
+  width: 50%;
   padding: 15px;
 }
 
@@ -74,6 +71,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  border-right: 1px solid #ddd;
 }
 
 .cart-left img {
@@ -103,7 +101,7 @@
   margin-left: 35px;
 }
 
-.cart-right .table-content{
+.cart-right .quantity-price-content{
   display: none;
 }
 
@@ -151,10 +149,39 @@
   color: #ff4a3c;
 }
 
+.base-wrapper{
+  width: 100%;
+}
+
+.base-wrapper form{
+  width: 100%;
+  padding: 0 60px;
+}
+
+.base-wrapper form input{
+  width: 18px;
+  height: 18px;
+  accent-color: #271438;
+}
+
+.base-wrapper form em{
+  font-size: 1.08rem;
+  color: #271438;
+}
+
+.base-wrapper form .base-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .base-content p{
   font-size: 1.5rem;
   padding: 15px 0;
   color: #27143873;
+  text-align: center;
 }
 
 .base-content p b{
@@ -165,7 +192,7 @@
  color: #2714385b;
 }
 
-.base-btn button,
+.form-btn button,
 .empty-cart button{
   padding: 10px;
   color: #fff;
@@ -176,7 +203,7 @@
   text-align: center;
 }
 
-.base-btn{
+.form-btn{
   display: flex;
   justify-content: space-between;
   column-gap: 2rem;
@@ -208,16 +235,23 @@
 
   .cart-item .cart-left,
   .cart-item .cart-right {
-    flex: 100%;
+    width: 100%;
   }
 
-  .cart-right .table-content{
-    display: block;
-    display: flex;
+  .cart-item .cart-left{
+    border-right: none;
   }
 
-  .cart-content .table-bar{
+  .cart-content .table-header{
     display: none;
+  }
+
+  .cart-right .quantity-price-content{
+    display: none;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px 5px;
   }
 
   .cart-right .quant-price b{
@@ -229,12 +263,16 @@
   }
 
   .cart-right .quant-price b:nth-child(2){
-    margin-right: 25px;
+    margin-right: 10px;
   }
 }
 
 @media screen and (max-width: 440px){
   .cart-wrapper{
     margin-top: 10%;
+  }
+
+  .base-wrapper form{
+    padding: 0 10px;
   }
 }

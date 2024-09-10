@@ -18,6 +18,7 @@ const SwiperScreen = ({
   slidesPerView=1, 
   navigation, 
   pagination, 
+  speed,
   loop, 
   autoplay,
   breakpoints={},
@@ -29,6 +30,7 @@ const SwiperScreen = ({
       slidesPerView={slidesPerView}
       navigation={navigation}
       pagination={pagination ? {clickable: true} : false}
+      speed={speed}
       loop={loop}
       autoplay={autoplay}
       breakpoints={breakpoints}

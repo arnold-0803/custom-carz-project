@@ -4,6 +4,7 @@ import image from "../../images/pix/image19.jpg";
 import { ShopContext } from "../../context/ShoppingContext";
 import "./ContacPageStyles.css";
 import HeroBanner from "../../components/HeroBanner";
+import NewsLetterSubscription from "../../components/NewsLetterSubscription";
 
 const contactData = [
   {
@@ -88,6 +89,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <NewsLetterSubscription/>
     </div>
   );
 }

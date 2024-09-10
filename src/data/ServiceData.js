@@ -2,7 +2,7 @@ export const  ServiceData = [
   {
     id: 1,
     src: `${process.env.PUBLIC_URL}/image/719d1870831d906b72b1261b09c2263d-removebg-preview.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "CHROME",
     description: "X-2024 lorem ipsum",
     price: 250,
     rating: 4.9,
@@ -10,7 +10,7 @@ export const  ServiceData = [
   {
     id: 2,
     src: `${process.env.PUBLIC_URL}/image/product-image1.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "CHROME",
     description: "X-2024 lorem ipsum",
     price: 250,
     rating: 4.7,
@@ -18,7 +18,7 @@ export const  ServiceData = [
   {
     id: 3,
     src: `${process.env.PUBLIC_URL}/image/product-image2.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "CHROME",
     description: "X-2024 lorem ipsum",
     price: 100,
     rating: 3.5,
@@ -26,7 +26,7 @@ export const  ServiceData = [
   {
     id: 4,
     src: `${process.env.PUBLIC_URL}/image/product-image3.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "CHROME",
     description: "X-2024 lorem ipsum",
     price: 320,
     rating: 4.0,
@@ -34,7 +34,7 @@ export const  ServiceData = [
   {
     id: 5,
     src: `${process.env.PUBLIC_URL}/image/product-image4.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "HOOD",
     description: "X-2024 lorem ipsum",
     price: 400,
     rating: 4.8,
@@ -42,7 +42,7 @@ export const  ServiceData = [
   {
     id: 6,
     src: `${process.env.PUBLIC_URL}/image/product-image5.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "HOOD",
     description: "X-2024 lorem ipsum",
     price: 300,
     rating: 4.2,
@@ -50,7 +50,7 @@ export const  ServiceData = [
   {
     id: 7,
     src: `${process.env.PUBLIC_URL}/image/product-image6.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "HOOD",
     description: "X-2024 lorem ipsum",
     price: 290,
     rating: 3.9,
@@ -58,7 +58,7 @@ export const  ServiceData = [
   {
     id: 8,
     src: `${process.env.PUBLIC_URL}/image/product-image7.jpg`,
-    prodName: "PRODUCT NAME",
+    prodName: "HOOD",
     description: "X-2024 lorem ipsum",
     price: 250,
     rating: 2.7,
@@ -66,7 +66,7 @@ export const  ServiceData = [
   {
     id: 9,
     src: `${process.env.PUBLIC_URL}/image/product-image8.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BUMPER REAR EXTENTION",
     description: "X-2024 lorem ipsum",
     price: 140,
     rating: 3.5,
@@ -74,7 +74,7 @@ export const  ServiceData = [
   {
     id: 10,
     src: `${process.env.PUBLIC_URL}/image/product-image9.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BUMPER REAR SKIRT",
     description: "X-2024 lorem ipsum",
     price: 120,
     rating: 3.1,
@@ -82,7 +82,7 @@ export const  ServiceData = [
   {
     id: 11,
     src: `${process.env.PUBLIC_URL}/image/product-image10.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BUMPER REAR LOWER",
     description: "X-2024 lorem ipsum",
     price: 90,
     rating: 3.6,
@@ -90,7 +90,7 @@ export const  ServiceData = [
   {
     id: 12,
     src: `${process.env.PUBLIC_URL}/image/product-image11.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BUMPER REAR",
     description: "X-2024 lorem ipsum",
     price: 100,
     rating: 2.9,
@@ -98,7 +98,7 @@ export const  ServiceData = [
   {
     id: 13,
     src: `${process.env.PUBLIC_URL}/image/product-image12.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BUMPER FRONT LIP",
     description: "X-2024 lorem ipsum",
     price: 180,
     rating: 3.6,
@@ -106,7 +106,7 @@ export const  ServiceData = [
   {
     id: 14,
     src: `${process.env.PUBLIC_URL}/image/product-image13.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BUMPER FRONT LIP",
     description: "X-2024 lorem ipsum",
     price: 200,
     rating: 3.4,
@@ -114,7 +114,7 @@ export const  ServiceData = [
   {
     id: 15,
     src: `${process.env.PUBLIC_URL}/image/product-image14.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BUMPER FRONT LIP",
     description: "X-2024 lorem ipsum",
     price: 195,
     rating: 3,
@@ -122,7 +122,7 @@ export const  ServiceData = [
   {
     id: 16,
     src: `${process.env.PUBLIC_URL}/image/product-image15.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BUMPER FRONT",
     description: "X-2024 lorem ipsum",
     price: 150,
     rating: 3.3,
@@ -130,7 +130,7 @@ export const  ServiceData = [
   {
     id: 17,
     src: `${process.env.PUBLIC_URL}/image/product-image16.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BUMPER FRONT",
     description: "X-2024 lorem ipsum",
     price: 105,
     rating: 2.5,
@@ -138,7 +138,7 @@ export const  ServiceData = [
   {
     id: 18,
     src: `${process.env.PUBLIC_URL}/image/product-image17.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "GRILL",
     description: "X-2024 lorem ipsum",
     price: 60,
     rating: 2.3,
@@ -146,7 +146,7 @@ export const  ServiceData = [
   {
     id: 19,
     src: `${process.env.PUBLIC_URL}/image/product-image18.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "GRILL",
     description: "X-2024 lorem ipsum",
     price: 100,
     rating: 3.7,
@@ -154,7 +154,7 @@ export const  ServiceData = [
   {
     id: 20,
     src: `${process.env.PUBLIC_URL}/image/product-image19.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "GRILL",
     description: "X-2024 lorem ipsum",
     price: 80,
     rating: 3,
@@ -162,7 +162,7 @@ export const  ServiceData = [
   {
     id: 21,
     src: `${process.env.PUBLIC_URL}/image/product-image20.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "SPOILER",
     description: "X-2024 lorem ipsum",
     price: 110,
     rating: 3.5,
@@ -170,7 +170,7 @@ export const  ServiceData = [
   {
     id: 22,
     src: `${process.env.PUBLIC_URL}/image/product-image21.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "SPOILER",
     description: "X-2024 lorem ipsum",
     price: 90,
     rating: 3.1,
@@ -178,7 +178,7 @@ export const  ServiceData = [
   {
     id: 23,
     src: `${process.env.PUBLIC_URL}/image/product-image22.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "SPOILER",
     description: "X-2024 lorem ipsum",
     price: 115,
     rating: 3,
@@ -186,7 +186,7 @@ export const  ServiceData = [
   {
     id:24,
     src: `${process.env.PUBLIC_URL}/image/product-image23.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "SPOILER",
     description: "X-2024 lorem ipsum",
     price: 60,
     rating: 2.7,
@@ -194,7 +194,7 @@ export const  ServiceData = [
   {
     id: 25,
     src: `${process.env.PUBLIC_URL}/image/product-image24.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "SPOILER",
     description: "X-2024 lorem ipsum",
     price: 50,
     rating: 2.2,
@@ -202,14 +202,15 @@ export const  ServiceData = [
   {
     id: 26,
     src: `${process.env.PUBLIC_URL}/image/product-image25.png`,
-    title: "product name",
+    prodName: "EXHAUST",
+    description: "X-2024 lorem ipsum",
     price: 30,
     rating: 3.2,
   },
   {
     id: 27,
     src: `${process.env.PUBLIC_URL}/image/product-image26.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "EXHAUST",
     description: "X-2024 lorem ipsum",
     price: 40,
     rating: 3.4,
@@ -217,7 +218,7 @@ export const  ServiceData = [
   {
     id: 28,
     src: `${process.env.PUBLIC_URL}/image/proguct-image27.jpeg`,
-    prodName: "PRODUCT NAME",
+    prodName: "EXHAUST",
     description: "X-2024 lorem ipsum",
     price: 50,
     rating: 4.2,
@@ -225,7 +226,7 @@ export const  ServiceData = [
   {
     id: 29,
     src: `${process.env.PUBLIC_URL}/image/a64319b53abe9b925002ee2f7379b169-removebg-preview.png`,
-    prodName: "PRODUCT NAME",
+    prodName: "BACK LIGHT",
     description: "X-2024 lorem ipsum",
     price: 50,
     rating: 4.4,

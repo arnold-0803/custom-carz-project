@@ -18,7 +18,7 @@ export const AchievementData = [
     icon: "fa-solid fa-car",
     title: "Exported Product",
     end: 300,
-    symbol: ""
+    symbol: "+"
   },
   {
     id: 4,

@@ -2,11 +2,12 @@ import { useContext } from "react";
 import Navbar from "../../components/Navbar";
 import image from "../../images/pix/mercedes-amg-gt-4-door-coupe-6942533.jpg";
 import { ShopContext } from "../../context/ShoppingContext";
-import { AboutData } from "../../data/AboutData";
+import { AboutData, AboutPartnersData} from "../../data/AboutData";
 import AboutCard from "./AboutCard";
 import "./AboutPageStyles.css";
 import AchievementElementor from "../../components/AchievementElementor";
 import HeroBanner from "../../components/HeroBanner";
+import PartnersSlideScreen from "../../components/PartnersSlideScreen";
 
 const AboutUs = () => {
 
@@ -40,6 +41,8 @@ const AboutUs = () => {
         </div>
       </div>
       <AchievementElementor/>
+
+      <PartnersSlideScreen data={AboutPartnersData}/>
     </div>
   );
 }

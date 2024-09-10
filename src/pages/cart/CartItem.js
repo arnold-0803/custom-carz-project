@@ -24,7 +24,7 @@ function CartItem({data}) {
       </div>
       
       <div className="cart-right">
-        <div className="table-content">
+        <div className="quantity-price-content">
           <p>Quantity</p>
           <p>Price</p>
         </div>

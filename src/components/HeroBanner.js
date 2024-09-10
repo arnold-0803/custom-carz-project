@@ -11,7 +11,7 @@ const HeroBanner = ({data, customClass}) => {
             <h3>{item.additionalHeading}</h3>
             <p>{item.paragraph}</p>
             <div>
-              <h4><i className={item.transportIcon}></i>Free & Fast Delivery</h4>
+              <h4><i className={item.transportIcon}></i>Free & Fast Transport</h4>
               <h4><i className={item.costIcon}></i>Affordable Products</h4>
               <h4><i className={item.communicationIcon}></i>24/7 Customer care</h4>
             </div>

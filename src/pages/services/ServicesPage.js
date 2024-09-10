@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import Navbar from "../../components/Navbar";
 import { ServiceData } from "../../data/ServiceData";
-import image from "../../images/pix/_.jpeg";
+import image from "../../images/pix/image18.jpg";
 import "./ServicesPageStyles.css";
 import { ShopContext } from "../../context/ShoppingContext";
 import ProductCard from "./ProductCard";
@@ -30,7 +30,7 @@ const Service = () => {
     });
   }, [currentPage]);
 
-  const serviceData = [
+  const serviceHeroData = [
     {
       id: 1,
       heading: "Services",
@@ -48,7 +48,7 @@ const Service = () => {
     <div className="service-page">
       <Navbar cartCount={totalQuantity}/>
       <HeroBanner
-        data={serviceData}
+        data={serviceHeroData}
         customClass="service-banner"
       />
       <div className="
