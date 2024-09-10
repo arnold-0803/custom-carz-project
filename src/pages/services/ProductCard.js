@@ -21,12 +21,12 @@ const ProductCard = ({data}) => {
         <div className="card">
           <img src={data.src} alt="" />
           <p>{data.prodName}</p>
-          <span>{data.description}</span>
+          <p>{data.description}</p>
           <div className="star-rating">
             <i className="fa-solid fa-star"></i>
             <b>{data.rating}</b>
           </div>
-          <span className="price"><b>$ {data.price}</b></span>
+          <span className="price"><b>${data.price}</b></span>
           <button
             onClick={() => addToCart(data.id)}
           >Add to cart<i className="fa-solid fa-cart-shopping"></i>

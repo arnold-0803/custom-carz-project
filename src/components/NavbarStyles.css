@@ -158,7 +158,17 @@
 
 
 /* MEDIA QUERY */
-@media screen and (max-width: 965px) {
+@media screen and (max-width: 930px) {
+  .menu-list li a{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-logo{
+    font-size: 1rem;
+  }
+
   .navbar .menu-wrapper{
     width: 100%;
     right: 0;
@@ -245,7 +255,5 @@
 }
 
 @media screen and (max-width: 400px) {
-  .nav-logo{
-    font-size: 1rem;
-  }
+  
 }

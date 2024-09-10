@@ -22,7 +22,7 @@ function SearchedProduct() {
   return (
     <div className="search-page">
       <Navbar cartCount={totalQuantity}/>
-      <h1>Your Search</h1>
+      <h1>{filteredData.length} Product(s) Found</h1>
       <div className="search-result">
         <ul>
           {filteredData.length > 0 ? (
@@ -32,7 +32,7 @@ function SearchedProduct() {
               </li>
             ))
           ) : (
-            <li>No items</li>
+            <li>No items found</li>
           )}
         </ul>
       </div>

@@ -19,9 +19,11 @@ function Cart() {
       <h1>Your Shopping Cart</h1>
       <div className="cart-content">
         {totalCartAmount > 0 ? (
-          <div className="table-bar">
-            <div className="empty-content"></div>
-            <div className="table-content">
+          <div className="table-header">
+            <div className="title-content">
+              <p>Product</p>
+            </div>
+            <div className="quantity-price-content">
               <p>Quantity</p>
               <p>Price</p>
             </div>
@@ -41,6 +43,17 @@ function Cart() {
 
       {totalCartAmount > 0 ? (
         <div className="base-wrapper">
+          <form>
+            <input type="checkbox"  required/>
+              <em>
+                I have confirmed the number of
+                products and I am ordering
+                the correct part for my vehicle. 
+                Further, I have read, understood and 
+                agreed with your terms of service, 
+                transport, and refunding policies.
+              </em>
+          </form>
           <div className="base-content">
             <p>Total Purchase: <b>${totalCartAmount}</b></p>
             <div className="base-btn">

@@ -12,6 +12,8 @@ import { ShopContext } from "../../context/ShoppingContext";
 import AchievementElementor from "../../components/AchievementElementor";
 import SwiperScreen from "../../components/SwiperScreen";
 import ClientsReviews from "../../components/ClientsReviews";
+import PartnersSlideScreen from "../../components/PartnersSlideScreen";
+import { AboutPartnersData } from "../../data/AboutData";
 
 
 // HeroSwiper data
@@ -71,6 +73,7 @@ const Home = () => {
 
   const {getTotalQuantity} = useContext(ShopContext);
   const totalQuntity = getTotalQuantity();
+
   return (
     <div className="home">
       <Navbar cartCount={totalQuntity}/>
@@ -82,7 +85,7 @@ const Home = () => {
           navigation={true}
           pagination={true}
           loop={false}
-          customClass="Hero-swiper"
+          customClass="hero-swiper"
         />
       </div>
 
@@ -91,6 +94,10 @@ const Home = () => {
       <ClientsReviews data={ReviewsData}/>
 
       <AchievementElementor/>
+
+      <PartnersSlideScreen
+        data={AboutPartnersData}
+      />
     </div>
   );
 }

@@ -55,10 +55,15 @@
   transform: scale(1.04);
 }
 
-.card-wrapper .card p{
-  color: #000;
-  font-size: 1.4rem;
+.card-wrapper .card p:nth-child(2){
+  color: #271438c0;
+  font-size: 1.2rem;
   font-weight: bolder;
+  padding: 5px 0;
+}
+
+.card-wrapper .card p:nth-child(3){
+  color: #0000004b;
 }
 
 .card-wrapper .card .star-rating{
@@ -70,19 +75,18 @@
 }
 
 .star-rating b{
-  display: inline;
-  width: 40px;
+  display: inline-block;
+  width: 35px;
   color: #fff;
   background: #80808073;
   text-align: center;
   border-radius: 20px;
-  padding: 0 6px;
 }
 
 .card-wrapper .card .price{
   text-align: center;
   padding-bottom: 3px;
-  color: #271438;
+  color: #271438c0;
   font-size: 1.5rem;
   font-weight: bolder;
 }
@@ -156,7 +160,7 @@
   }
 }
 
-/* Props Styles to Hero Banner */
+/* Props Styles for Hero Banner */
 .service-banner .left div{
   width: 100%;
   display: flex;
