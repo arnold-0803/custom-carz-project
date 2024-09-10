@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/custom-carz-project/static/css/main.010906c7.css",
-    "main.js": "/custom-carz-project/static/js/main.4dcc9309.js",
+    "main.css": "/custom-carz-project/static/css/main.e0fad8d3.css",
+    "main.js": "/custom-carz-project/static/js/main.b9a8eb72.js",
     "static/media/image2.jpg": "/custom-carz-project/static/media/image2.0dcdc91235496a54294b.jpg",
     "static/media/mercedes-amg-gt-4-door-coupe-6942533.jpg": "/custom-carz-project/static/media/mercedes-amg-gt-4-door-coupe-6942533.a8cba61c81d3f6f2fa17.jpg",
     "static/media/image3.jpg": "/custom-carz-project/static/media/image3.a7b3604dfdec14e155ce.jpg",
@@ -22,11 +22,11 @@
     "static/media/paintbrush-garage-tool-svgrepo-com.svg": "/custom-carz-project/static/media/paintbrush-garage-tool-svgrepo-com.d9aad84129ff59dfa741b1ba72897fae.svg",
     "static/media/volvo-3-logo-svgrepo-com.svg": "/custom-carz-project/static/media/volvo-3-logo-svgrepo-com.9cae2ca5bdeff92ee75ee17da12f57b2.svg",
     "index.html": "/custom-carz-project/index.html",
-    "main.010906c7.css.map": "/custom-carz-project/static/css/main.010906c7.css.map",
-    "main.4dcc9309.js.map": "/custom-carz-project/static/js/main.4dcc9309.js.map"
+    "main.e0fad8d3.css.map": "/custom-carz-project/static/css/main.e0fad8d3.css.map",
+    "main.b9a8eb72.js.map": "/custom-carz-project/static/js/main.b9a8eb72.js.map"
   },
   "entrypoints": [
-    "static/css/main.010906c7.css",
-    "static/js/main.4dcc9309.js"
+    "static/css/main.e0fad8d3.css",
+    "static/js/main.b9a8eb72.js"
   ]
 }
